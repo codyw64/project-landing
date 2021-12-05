@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.header , .title {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+.mainhead {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 200px 10px 200px;
+}
+
+a {
+    text-decoration: none;
+    color:#f9faf8;
+}
+
+li {
+    display: inline;
+    margin: 30px;
+}
+ul {
+    margin: 30px 30px 30px auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 10px 200px 10px 200px;
+    
+}
+
+.titleflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content1 {
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+}
+.content2 {
+    display: flex;
+    margin: 0;
+}
+.orange {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 25px;
+    margin: 0 10px 10px 10px;
+}
+.boxtext {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 20px;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.thorquote {
+    font-weight: 900;
+    font-style: normal;
+    margin: 0 0px 0 500px;
+    padding: 20px;
+}
+
+.finalsection {
+    background-color: #3882f6;
+    color: white;
+    padding: 20px;
+    border: white;
+    border-style: solid;
+    border-width: 50px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+.button2 {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    max-height: 50px;
+    margin: 20px;
+}
+.grapefruit {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 5px;
+}
