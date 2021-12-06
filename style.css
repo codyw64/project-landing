@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 200px 10px 200px;
+    padding: 10px 25px 10px 25px;
 }
 
 a {
@@ -39,7 +39,7 @@ ul {
 .title {
     display: flex;
     justify-content: center;
-    padding: 10px 200px 10px 200px;
+    padding: 10px 400px 10px 400px;
     
 }
 
@@ -69,7 +69,7 @@ ul {
 .boxtext {
     display: flex;
     flex-direction: column;
-    margin: 0 20px 20px 20px;
+    margin: 0 100px 20px 100px;
     align-items: center;
     max-width: 200px;
     text-align: center;
@@ -84,7 +84,7 @@ ul {
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 200px;
 }
 .thorquote {
     font-weight: 900;
@@ -99,8 +99,7 @@ ul {
     padding: 20px;
     border: white;
     border-style: solid;
-    border-width: 50px;
-    border-radius: 60px;
+    border-width: 10px 600px;
     display: flex;
     justify-content: center;
     align-items: center;
